@@ -5,7 +5,7 @@ bashtop is a Linux/OSX/FreeBSD resource monitor
 Automatic install/update:
 
 ```shell
-bash -c "$(curl -LSs https://github.com/dfmgr/bashtop/raw/master/install.sh)"
+bash -c "$(curl -LSs https://github.com/dfmgr/bashtop/raw/main/install.sh)"
 ```
 
 Manual install:
