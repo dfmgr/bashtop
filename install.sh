@@ -141,7 +141,10 @@ __run_prepost_install() {
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 # run after primary post install function
 __run_post_install() {
-
+  if ! __cmd_exists bashtop; then
+    __download_file "https://github.com/aristocratos/bashtop/raw/master/bashtop" "$HOME/.local/bin/bashtop"
+    [ -f "$HOME/.local/bin/bashtop" ] && chmod 755 "$HOME/.local/bin/bashtop"
+  fi
   return ${?:-0}
 }
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
