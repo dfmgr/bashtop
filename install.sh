@@ -148,7 +148,7 @@ PLUGIN_REPOS=""
 LATEST_RELEASE=""
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 # Specify global packages
-GLOBAL_OS_PACKAGES="psutil "
+GLOBAL_OS_PACKAGES=""
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 # Define linux only packages
 LINUX_OS_PACKAGES=""
@@ -163,7 +163,7 @@ WIN_OS_PACKAGES=""
 AUR_PACKAGES=""
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 # Define required system python packages
-PYTHON_PACKAGES="pip setuptools"
+PYTHON_PACKAGES="pip setuptools psutil"
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 # Define required system perl packages
 PERL_PACKAGES=""
